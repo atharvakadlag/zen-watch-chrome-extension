@@ -5,19 +5,19 @@
   "description": "Bring your youtube playlist to zen-watch with just one click. bleh",
   "author": "Atharva Kadlag",
   "icons": {
-    "16": "logo.png",
-    "32": "logo.png",
-    "48": "logo.png"
+    "16": "images/logo.png",
+    "32": "images/logo.png",
+    "48": "images/logo.png"
   },
   "permissions": ["tabs", "activeTab", "declarativeContent", "storage"],
-  "background": { "scripts": ["background.js"], "persistent": false },
+  "background": { "scripts": ["scripts/background.js"], "persistent": false },
   "page_action": {
-    "default_popup": "popup.html",
+    "default_popup": "ui/popup.html",
     "default_title": "Watch in Zen-Mode",
     "default_icons": {
-      "16": "logo.png",
-      "32": "logo.png",
-      "48": "logo.png"
+      "16": "images/logo.png",
+      "32": "images/logo.png",
+      "48": "images/logo.png"
     }
   }
 }
